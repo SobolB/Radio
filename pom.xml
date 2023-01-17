@@ -48,6 +48,7 @@
                             <goal>prepare-agent</goal>
                         </goals>
                     </execution>
+
                     <execution>
                         <id>report</id>
                         <phase>verify</phase>
@@ -80,7 +81,3 @@
     </build>
 
 </project>
-
-
-
-
