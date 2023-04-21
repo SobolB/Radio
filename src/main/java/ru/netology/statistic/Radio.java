@@ -1,4 +1,4 @@
-package ru.netology.statistic;
+package org.example;
 
 public class Radio {
     private int currentStation;
