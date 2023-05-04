@@ -20,6 +20,10 @@ public class Radio {
             currentStation = 9;
         }
     }
+    
+    public int getCurrentStation() {
+        return currentStation;
+    }
 
     public void setCurrentStation(int currentStation) {
         if (currentStation < 0) {
@@ -31,7 +35,10 @@ public class Radio {
         this.currentStation = currentStation;
     }
 
-
+    public int getCurrentVolume() {
+        return currentVolume;
+    }
+    
     public void setCurrentVolume(int currentVolume) {
         if (currentVolume < 0) {
             return;
