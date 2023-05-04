@@ -21,10 +21,6 @@ public class Radio {
         }
     }
 
-    public int getCurrentStation() {
-        return currentStation;
-    }
-
     public void setCurrentStation(int currentStation) {
         if (currentStation < 0) {
             return;
@@ -35,10 +31,6 @@ public class Radio {
         this.currentStation = currentStation;
     }
 
-
-    public int getCurrentVolume() {
-        return currentVolume;
-    }
 
     public void setCurrentVolume(int currentVolume) {
         if (currentVolume < 0) {
