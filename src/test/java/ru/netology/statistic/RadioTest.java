@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 class RadioTest {
     @Test
-    public void test1() {
+    public void test11() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(5);
@@ -18,7 +18,7 @@ class RadioTest {
     }
 
     @Test
-    public void test11() {
+    public void test12() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(9);
@@ -32,7 +32,7 @@ class RadioTest {
     }
 
     @Test
-    public void test2() {
+    public void test21() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(7);
