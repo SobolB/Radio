@@ -3,7 +3,6 @@ package ru.netology.statistic;
 public class Radio {
     private int currentStation;
     private int currentVolume;
-    private String text = "No";
     private int maxVolume = 10;
     private int minVolume = 0;
     private int maxRadioStation = 9;
